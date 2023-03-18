@@ -1,0 +1,10 @@
+.footer__copyright {
+    min-width: 318px;
+    min-height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.23;
+    color: #545454;
+    padding: 67px 0 0;
+    margin: 0;
+}

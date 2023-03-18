@@ -1,0 +1,30 @@
+const popupElement = document.querySelector(".popup");
+const popupCloseButtonElement = popupElement.querySelector(".popup__close-button");
+const popupEditButtonElement = document.querySelector(".profile__edit");
+const formElement = popupElement.querySelector(".popup__form");
+const nameInput = formElement.querySelector(".popup__form-field_input_name");
+const jobInput = formElement.querySelector(".popup__form-field_input_job");
+const nameElement = document.querySelector(".profile__title");
+const jobElement = document.querySelector(".profile__subtitle");
+
+const openPopup = function () {
+  popupElement.classList.add("popup_is-opened");
+  nameInput.value = nameElement.textContent;
+  jobInput.value = jobElement.textContent;
+};
+
+const closePopup = function () {
+  popupElement.classList.remove("popup_is-opened");
+};
+
+
+function handleFormSubmit(evt) {
+  evt.preventDefault();
+  nameElement.textContent = nameInput.value;
+  jobElement.textContent = jobInput.value;
+  closePopup();
+};
+
+popupEditButtonElement.addEventListener("click", openPopup);
+popupCloseButtonElement.addEventListener("click", closePopup);
+formElement.addEventListener("submit", handleFormSubmit);
