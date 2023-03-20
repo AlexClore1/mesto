@@ -9,3 +9,12 @@
     margin: 0;
     align-self: end;
 }
+
+@media (max-width: 580px) {
+    .profile__title {
+        text-align: center;
+        align-self: flex-start;
+        font-size: 27px;
+        line-height: 1.18;
+    }
+}

@@ -4,3 +4,11 @@
     max-height: 120px;
     padding: 40px 0;
 }
+
+@media (max-width: 320px) {
+    .profile__avatarka {
+        margin: 38px 0 22px;
+        align-self: center;
+        padding: 0;
+    }
+}

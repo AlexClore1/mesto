@@ -8,3 +8,11 @@
     white-space: nowrap;
     overflow: hidden;
 }
+
+@media (max-width: 580px) {
+    .profile__subtitle {
+        text-align: center;
+        margin: 0 0 36px;
+        font-size: 14px;
+    }
+}

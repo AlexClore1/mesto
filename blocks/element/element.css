@@ -1,7 +1,8 @@
 .element {
     max-width: 282px;
     background-color: #FFFFFF;
-    max-height: 361px;
     border-radius: 10px;
     position: relative;
+    margin: 0;
+    padding: 0;
 }

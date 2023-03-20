@@ -5,3 +5,12 @@
     row-gap: 20px;
     column-gap: 17px;
 }
+
+@media (max-width: 580px)  {
+    .elements {
+        padding: 35px 0 0;
+        max-width: 91%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}

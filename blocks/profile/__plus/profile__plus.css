@@ -1,5 +1,12 @@
 .profile__plus {
-    min-width: 22px;
-    min-height: 22px;
+    max-width: 22px;
+    max-height: 22px;
     cursor: pointer;
+}
+
+@media (max-width: 320px) {
+    .profile__plus {
+        max-width: 16px;
+        max-height: 16px;
+    }
 }

@@ -4,3 +4,18 @@
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 580px) {
+    .logo {
+        max-width: 120px;
+        max-height: 28px;
+    }
+}
+
+@media (max-width: 435px) {
+    .logo {
+        max-width: 104px;
+        max-height: 25px;
+        padding: 0 8.5% 0;
+    }
+}

@@ -6,3 +6,10 @@
     padding: 0;
     display: block;
 }
+
+@media (max-width: 320px){
+    .element__image {
+        min-width: 100%;
+        min-height: 70%;
+    }
+}
