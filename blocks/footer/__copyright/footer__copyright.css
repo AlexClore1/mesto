@@ -1,18 +1,15 @@
 .footer__copyright {
-    min-width: 318px;
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.23;
     color: #545454;
-    padding: 67px 0 0;
-    margin: 0;
+    padding: 67px 0 60px 0;
 }
 
 @media (max-width: 580px) {
     .footer__copyright{
-        padding: 48px 6% 0;
-        max-width: 282px;
-        max-height: 14px;
+        padding: 48px 0 36px 19px;
         font-size: 14px;
         line-height: 1.21;
     }
