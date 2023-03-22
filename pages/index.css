@@ -15,7 +15,6 @@
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/__content/element__content.css);
-@import url(../blocks/element/__delete/element__delete.css);
 @import url(../blocks/element/__image/element__image.css);
 @import url(../blocks/element/__likes/element__likes.css);
 @import url(../blocks/element/__likes/_active/element__likes_active.css);
@@ -31,3 +30,4 @@
 @import url(../blocks/popup/__save-button/popup__save-button.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/_is-opened/popup_is-opened.css);
+@import url(../nojekull);
