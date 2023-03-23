@@ -5,7 +5,7 @@
     justify-content: space-between;
 }
 
-@media(max-width: 345px) {
+@media (max-width: 345px) {
     .element__content {
         padding-top: 20px;
     }

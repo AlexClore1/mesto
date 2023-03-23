@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 880px) {
     .logo {
         max-width: 104px;
         max-height: 25px;

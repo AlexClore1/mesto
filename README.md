@@ -1,6 +1,33 @@
 # Проект: Место
 
-### Одностраничный адаптивный сайт, с возможностью редактировать своё имя и свою профессию, ну или описание о себе.
+## Описание проекта
+Адаптивная верстка с использованием чистого JavaScript.
+Фотогалерея с поп-апом редактирования личной информации.
+
+## Используемые Технологии
+HTML:
+* template tag
+
+CSS:
+* Flex
+* Grid
+* Media Query
+* calc ()
+
+JS:
+* querySelector
+* function ()
+* classList.togle
+* if / else
+* input.value / .textContent
+* addEventListener
+* Arrays
+* push
+* Append
+* forEach
+* closest() / nextElementSibling
+* ent.target
+* Стрелочные функции
 
 * Сделано по макету с фигмы
 
@@ -8,4 +35,4 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 
-Ссылка на сайт https://alexclore1.github.io/mesto
+* [Ссылка на сайт проекта](https://alexclore1.github.io/mesto)
