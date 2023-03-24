@@ -10,7 +10,7 @@
     align-self: end;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 709px) {
     .profile__title {
         text-align: center;
         align-self: flex-start;
