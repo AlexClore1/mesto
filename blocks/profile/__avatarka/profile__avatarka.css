@@ -8,6 +8,7 @@
 @media (max-width: 320px) {
     .profile__avatarka {
         margin: 38px 0 22px;
+        padding-bottom: 29px;
         align-self: center;
         padding: 0;
     }
